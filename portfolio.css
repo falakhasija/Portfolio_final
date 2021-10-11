@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster Two', cursive;   
+}
+
+ul{
+   list-style-type: none;
+   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li a :hover {
+    background-color:#111;
+  }
+.nav li{
+    
+   border-left: 2px solid white; 
+   float: right;
+    color: aqua;
+    padding: 14px 16px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+li:last-child{
+    border-left: none;
+}
+.item{
+      background-color: bisque;
+  }
+  .home{
+    display: flex;
+    background-image: url('blck.jpg');
+    height: 100vh;
+}
+.photoo{
+    float: center;
+  display: block;
+border:2px solid aqua;
+}
+#static, .static-text{
+    text-align: center;
+    display: block;
+    color: aquamarine;
+    margin: 2vw 34vw 40vw;
+   
+}
+.static-text{
+    margin: 30px;
+    font-size: 30px;
+}
+#name{
+    color: antiquewhite;
+    font-size: 40px;
+}
+hr{
+    border-style: dotted;
+    color: azure;
+}
+.static1,#one{
+    font-size: 40px;
+    display: inline-flex;
+}
+ .dynamic li{
+    list-style: none;
+    display: inline-flex;
+
+}
+.dynamic{
+    font-size:40px ;
+}
+.typing{
+    color:bisque;
+}
