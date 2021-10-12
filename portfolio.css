@@ -85,14 +85,14 @@ margin: 5vw 5vw 50vw 5vw;
     .photoo{width: 150%;}
     .static-text{width: 100%;}
     div.static-text{
-        font-size: 50px;
+        font-size: 20px;
     }
 } 
 @media only screen and (max-width: 992px) {
     .photoo{width: 150%;}
     .static-text{width: 100%;}
     div.static-text{
-        font-size: 30px;
+        font-size: 10px;
     }
 } 
 
