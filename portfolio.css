@@ -69,7 +69,7 @@ margin: 5vw 5vw 50vw 5vw;
 }
 @media only screen and (max-width: 600px) {
     .photoo{width: 70%;}
-    .static-text{width: 100%;}
+    .static-text{width: 100%,font-size=fit-content;}
 } 
 .typing{
     color: cadetblue;
