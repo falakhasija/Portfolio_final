@@ -67,12 +67,19 @@ margin: 5vw 5vw 50vw 5vw;
 .dynamic{
     color: burlywood;
 }
+@media screen and (min-width: 600px) {
+    div.static-text{
+      font-size: 20px;
+    }
+  }
+
 @media only screen and (max-width: 600px) {
     .photoo{width: 70%;}
     .static-text{width: 100%;}
-    .static-text {
-        font-size: 4px;
+    div.static-text {
+        font-size: 5px;
       }
+} 
 } 
 .typing{
     color: cadetblue;
