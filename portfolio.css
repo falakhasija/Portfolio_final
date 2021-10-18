@@ -119,8 +119,8 @@ margin: 5vw 5vw 50vw 5vw;
     animation-fill-mode: forwards;
 }
 @keyframes heading {
-    0%{left:-700px}
-     100%{left: 70px}   
+    0%{left:-500vh}
+     100%{left: 10vh}   
 }
 #read_btn{
     background-color: black;
