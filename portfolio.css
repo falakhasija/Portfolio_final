@@ -135,8 +135,8 @@ hr,#line
     border-top: 2px dashed rgb(0, 0, 0);
 }
   .about_text{
-      margin: 5vh;
-      padding: 10vh ;
+     margin: 3vh;
+      padding: 6vh ;
       color: black;
   }
   @media screen and (min-width: 600px) {
