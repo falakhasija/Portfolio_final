@@ -121,10 +121,10 @@ margin: 10vw 5vw 50vw 5vw;
   }
 
 @media only screen and (max-width: 600px) {
-    .photoo{width: 70%;}
+    .photoo{width: 100%;}
     .static-text{width: 100%;}
     div.static-text {
-        font-size: 10px;
+        font-size: 30px;
       }
 } 
 @media only screen and (min-width: 992px) {
