@@ -64,6 +64,7 @@ header.sticky{
 } 
 li:last-child{
     border-left: none;
+    float: right;
 
 }
 nav a{
@@ -115,7 +116,7 @@ margin: 10vw 5vw 50vw 5vw;
     .photoo{width: 70%;}
     .static-text{width: 100%;}
     div.static-text{
-      font-size: 40px;
+      font-size: 20px;
     }
   }
 
@@ -123,7 +124,7 @@ margin: 10vw 5vw 50vw 5vw;
     .photoo{width: 70%;}
     .static-text{width: 100%;}
     div.static-text {
-        font-size: 30px;
+        font-size: 10px;
       }
 } 
 @media only screen and (min-width: 992px) {
