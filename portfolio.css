@@ -18,7 +18,8 @@ header ul{
     display: inline;
     justify-content: center;
     align-items: center;
-    transition: 10s;}
+    transition: 10s;
+}
     
 header ul li{
     position: relative;
@@ -81,7 +82,7 @@ nav a{
   .home{
     display: flex;
     background-image: url('blck.jpg');
-    height: 100vh;
+    height: 70vh;
 }
 .photoo{
     float: center;
@@ -113,7 +114,7 @@ margin: 10vw 5vw 50vw 5vw;
 }
 @media only screen and (min-width: 600px) {
     .home{width: 100%;}
-    .photoo{width: 70%;}
+    .photoo{width: 100%;}
     .static-text{width: 100%;}
     div.static-text{
       font-size: 20px;
@@ -124,7 +125,7 @@ margin: 10vw 5vw 50vw 5vw;
     .photoo{width: 100%;}
     .static-text{width: 100%;}
     div.static-text {
-        font-size: 30px;
+        font-size: 50px;
       }
 } 
 @media only screen and (min-width: 992px) {
