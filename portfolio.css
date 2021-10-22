@@ -114,7 +114,7 @@ margin: 10vw 5vw 50vw 5vw;
     color: cadetblue;
 }
 @media only screen and (min-width: 600px) {
-    .home{width: 100%;}
+    .home{width: 70%;}
     .photoo{width: 100%;}
     .static-text{width: 100%;}
     div.static-text{
