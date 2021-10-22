@@ -83,6 +83,7 @@ nav a{
     display: flex;
     background-image: url('blck.jpg');
     height: 70vh;
+      width: 100vh;
 }
 .photoo{
     float: center;
