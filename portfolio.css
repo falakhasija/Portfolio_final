@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster Two', cursive;   
+}
+/* header{
+    position: fixed;
+    background: black;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    transition: 7s;
+    display: flex;
+    width: 100%;
+}
+header ul{
+    position: relative;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    transition: 10s;}
+    
+header ul li{
+    position: relative;
+    transition: 5s infinite; 
+    float: right;
+    justify-content: right;
+    align-items: right;
+}
+
+header ul li a{
+    position: relative;
+    transition: 5s;
+}
+ul{
+   list-style-type: none;
+   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+} */
+a.nav-link{
+    color: aqua;
+
+}
+  a:hover {
+    border: 2px dashed white;
+    transition: 0.5s; 
+  }
+.nav li{
+   
+   border-left: 2px solid white; 
+   float: right;
+    color: aqua;
+    padding: 14px 16px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+#navbar {
+    position:relative;
+    /* transition: 0.6s; */
+}
+header.sticky{
+    padding: 5px 100px;
+    background: black;
+} 
+li:last-child{
+    border-left: none;
+}
+nav a{
+    text-transform: uppercase;
+}
+.top{
+    color:aqua;
+    font-size: 1vw;
+    font-weight: bolder;
+}
+.item{
+    color: aqua;  
+  }
+  .home{
+    display: flex;
+    background-image: url('blck.jpg');
+    height: 70vh; 
+    width: 100vh;
+    
+}
+button.btn-outline-dark{
+    justify-content: center;
+    align-items: center;
+    float: center;
+}
+
+.photoo{
+    float: center;
+  display: block;
+border:2px solid aqua;
+margin: 10vw 5vw 50vw 5vw;
+}
+
+#static, .static-text{
+    text-align: center;
+    display: block;
+    color: aquamarine;
+    margin: 2vw 34vw 40vw;
+   
+}
+.static-text{
+    margin: 120px;
+    
+}
+#name{
+    color: antiquewhite;
+    font-size: 5vw;   
+}
+.dynamic{
+    color: burlywood;
+}
+.typing{
+    color: cadetblue;
+}
+@media only screen and (min-width: 600px) {
+    .home{width: 100%;}
+    .photoo{width: 70%;}
+    .static-text{width: 100%;}
+    div.static-text{
+      font-size: 20px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .photoo{width: 70%;}
+    .static-text{width: 100%;}
+    div.static-text {
+        font-size: 10px;
+      }
+} 
+@media only screen and (min-width: 992px) {
+    .photoo{width: 150%;}
+    .static-text{width: 100%;}
+    div.static-text{
+        font-size: 50px;
+    }
+} 
+@media only screen and (max-width: 992px) {
+    .photoo{width: 150%;}
+    .static-text{width: 100%;}
+    div.static-text{
+        font-size: 30px;
+    }
+} 
+.sec2{
+    display: block;
+    padding: 10vh;
+    background-image: url("blck.jpg");
+    height: 120vh;
+    color:cornflowerblue;
+    font-size: 3vh;
+    text-align: center;
+}
+#heading, h2{
+    font-size: 6vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#read_btn{
+    background-color:transparent;
+    display: inline-block;
+    font-size: 2vh;
+    color: burlywood;
+    opacity: 1;
+    border:whitesmoke 3px solid;
+    cursor: pointer;
+    padding: 1vh;
+    text-align: center;
+    
+}
+.nimcet{
+    background-color:transparent;
+    margin: 2vh;
+    display: inline-block;
+    font-size: 2vh;
+    border:whitesmoke 3px solid;
+    opacity: 1;
+    cursor: pointer;
+    padding: 1vh;
+    text-align: center;
+    
+}
+.nim{ color: burlywood}
+#more{display: none;}
+hr,#line
+{
+    border-top: 2px dashed rgb(0, 0, 0);
+}
+  .about_text{
+      margin: 3vh;
+      padding: 6vh ;
+      color: aqua;
+      font-size: 3vh;
+  }
+  .exams
+  {
+      margin: 2vh;
+    color: burlywood;  
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .exam_list
+  {
+      color: burlywood;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .current
+  {
+      font-weight: bold;
+      margin: 4vh;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .dynamic_about
+  {
+      color: burlywood;
+      font-size: 5vh;
+  }
+  @media screen and (min-width: 600px) {
+    
+    .about1{width: 100%;}
+    .about_text{width: 80%;}
+    div#heading{
+      font-size: 20px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+   
+    .about_text{width: 100%;}
+    div#heading{
+        font-size: 10px;
+      }
+} 
+
+.sec3{
+    display: block;
+    padding: 10vh;
+    background-image: url("blck.jpg");
+    height: 120vh;
+    color:burlywood;
+    font-size: 3vh;
+    text-align: center;
+
+}
+
+.skills_hr{
+    border-top: 2px dashed burlywood(199, 29, 29);
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+    color: burlywood;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  .skill_head{
+      color: cornflowerblue;
+      font-size: 7vh;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .para{
+      color: burlywood;
+      margin: 2vh;
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 65%; background-color: #f44336;}
+  .c {width: 80%; background-color: #808080;}
+  .python {width: 70%; background-color: #2196F3;}
+  .dsa {width: 80%; background-color:#f44336;}
+  .algo {width: 70%; background-color: #808080;}
+  
+  .resume
+  {
+    background-color:transparent;
+    margin: 4vh;
+    display: inline-block;
+    font-size: 2vh;
+    border:whitesmoke 3px solid;
+    opacity: 1;
+    cursor: pointer;
+    padding: 1vh;
+    text-align: center;
+    
+  }
+  .res{
+      color: burlywood;
+  }
+  .sec4{
+    display: block;
+    padding: 10vh;
+    background-image: url("blck.jpg");
+    height: 120vh;
+    color:cornflowerblue;
+    font-size: 3vh;
+    text-align: center;
+    height: 120%;
+  }
+  .msg{
+      margin: 10vh;
+      color: burlywood;
+      font-size: 7vh;
+  }
+  .input{
+      color: burlywood;
+      font-size: 3vh;
+  }
+  .input_btn
+  {
+    
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 20px;
+        font-size: 24px;
+        border-radius: 8px;
+        font-family: "Montserrat";
+        color: black;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: 0.3s ease background-color;
+      
+  }
+  .content1{
+      display:center;
+      color: burlywood;
+  }
+  .head{
+      display: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: burlywood;
+
+  }
+  .sub-title
+  {
+      display: center;
+      font-family: 'Times New Roman', Times, serif;
+      color: salmon;
+  }
+  .row  .material-icons
+  {
+      display: center;
+    
+  }
+
+  .right form .field{
+      display: flex;   
+      height: 45px;
+      width: 120%;
+      justify-content: left;
+    
+  }
+  .elements{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  }
+ 
+  .input{
+      
+      margin: 1vh;
+  }
+  .right{
+    width: 100%;
+    max-width: 800px;
+    margin: 4vh auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px burlywood;
+    background-color: black;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .right form .field input{
+      
+      border: burlywood 2px solid;
+  }
+  .field{
+      margin: 4vh;
+      width: 100%;
+      margin-top: 20px;
+      font-size: 20px;
+  }
+  .field input,
+.field textarea {
+  
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid burlywood;
+  margin-top: 5px;
+}
+textarea {
+    resize: vertical;
+  }
+  button[type="submit"]:hover {
+    background-color: aqua;
+  }
+  
+  .end
+  {
+      color: lightblue;
+      font-size: 7vh;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+.cont{
+    font-size: 4vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: salmon;
+}
+.other{
+    font-size: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: burlywood;
+}
+i #icon1{
+    margin: 4vh;
+}
+
+ 
+  
+/* @media only screen and (min-width: 992px) {
+   
+    .about_text{width: 100%;}
+    #heading{
+        font-size: 50px;
+    }
+} 
+@media only screen and (max-width: 992px) {
+
+    .about_text{width: 100%;}
+    #heading{
+        font-size: 30px;
+    }
+}  */
