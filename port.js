@@ -5,13 +5,13 @@ var typed = new Typed(".typing",
     backSpeed:20,
     loop:true
 });
-var typed1 = new Typed(".typing_about", 
-{
-    strings:[ "Who I Am??","Who I Am??","My Achievements"],
-    typeSpeed:50,
-    backSpeed:20,
-    loop:true
-});
+// var typed1 = new Typed(".typing_about", 
+// {
+//     strings:[ "Who I Am??","Who I Am??","My Achievements"],
+//     typeSpeed:50,
+//     backSpeed:20,
+//     loop:true
+// });
 var typed2 = new Typed(".typing_skill1", 
 {
     strings:[ "HTML","HTML"],
